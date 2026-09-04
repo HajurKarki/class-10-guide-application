@@ -1,0 +1,55 @@
+name: class_ten_guide
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+3
+
+environment:
+  sdk: ^3.9.2
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  syncfusion_flutter_pdfviewer: ^33.2.7
+  provider: ^6.1.5+1
+  connectivity_plus: ^7.1.1
+  shared_preferences: ^2.5.5
+  google_generative_ai: ^0.4.7
+  flutter_dotenv: ^6.0.1
+  image_picker: ^1.2.2
+  path_provider: ^2.1.6
+  google_mobile_ads: ^9.0.0
+  webp: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/
+    - assets/images/icon.png
+    - assets/images/onboarding/onboarding_learn.png
+    - assets/images/onboarding/onboarding_welcome.png
+    - assets/images/onboarding/onboarding_practice.png
+    - assets/images/my_photo.webp
+    
+    

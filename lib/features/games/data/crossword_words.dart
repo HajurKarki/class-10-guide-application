@@ -1,0 +1,126 @@
+/// Word bank for the crossword word-search game.
+/// Words are grouped by level range so difficulty increases.
+/// Each entry is a word and its clue/hint.
+class CrosswordWords {
+  static const List<({String word, String clue})> all = [
+    // ── Math ──────────────────────────────────────────────────────────────
+    (word: 'ALGEBRA', clue: 'Branch of math using symbols'),
+    (word: 'ANGLE', clue: 'Formed by two rays at a vertex'),
+    (word: 'AREA', clue: 'Space inside a 2D shape'),
+    (word: 'AXIS', clue: 'Reference line in a graph'),
+    (word: 'BASE', clue: 'Bottom side of a shape'),
+    (word: 'CHORD', clue: 'Line segment inside a circle'),
+    (word: 'CIRCLE', clue: 'Round closed curve'),
+    (word: 'CONE', clue: '3D shape with circular base and apex'),
+    (word: 'COSINE', clue: 'Trig ratio: adjacent over hypotenuse'),
+    (word: 'CUBE', clue: 'Six equal square faces'),
+    (word: 'DECIMAL', clue: 'Number with a point'),
+    (word: 'DEGREE', clue: 'Unit of angle measurement'),
+    (word: 'DELTA', clue: 'Symbol for change in mathematics'),
+    (word: 'DIAMETER', clue: 'Chord passing through the centre'),
+    (word: 'EQUATION', clue: 'Two expressions made equal'),
+    (word: 'EXPONENT', clue: 'Power to which base is raised'),
+    (word: 'FACTOR', clue: 'Number that divides evenly'),
+    (word: 'FRACTION', clue: 'Part of a whole'),
+    (word: 'GEOMETRY', clue: 'Study of shapes and space'),
+    (word: 'GRAPH', clue: 'Visual data representation'),
+    (word: 'HEIGHT', clue: 'Perpendicular distance'),
+    (word: 'HYPOTENUSE', clue: 'Longest side of a right triangle'),
+    (word: 'INDEX', clue: 'Another name for exponent'),
+    (word: 'INTEGER', clue: 'Whole number, positive or negative'),
+    (word: 'INTEREST', clue: 'Extra money earned on savings'),
+    (word: 'MEAN', clue: 'Average of a data set'),
+    (word: 'MEDIAN', clue: 'Middle value in sorted data'),
+    (word: 'MODE', clue: 'Most frequent value'),
+    (word: 'PERCENT', clue: 'Out of hundred'),
+    (word: 'PERIMETER', clue: 'Total length of boundary'),
+    (word: 'PI', clue: 'Ratio of circumference to diameter'),
+    (word: 'PRIME', clue: 'Divisible only by 1 and itself'),
+    (word: 'PROBABILITY', clue: 'Likelihood of an event'),
+    (word: 'PROOF', clue: 'Logical verification of a statement'),
+    (word: 'PROPORTION', clue: 'Equal ratios'),
+    (word: 'QUADRANT', clue: 'One quarter of a coordinate plane'),
+    (word: 'RADIUS', clue: 'Half the diameter of a circle'),
+    (word: 'RATIO', clue: 'Comparison of two quantities'),
+    (word: 'SEQUENCE', clue: 'Ordered list of numbers'),
+    (word: 'SET', clue: 'Collection of distinct objects'),
+    (word: 'SINE', clue: 'Trig ratio: opposite over hypotenuse'),
+    (word: 'SLOPE', clue: 'Steepness of a line'),
+    (word: 'SQUARE', clue: 'Rectangle with equal sides'),
+    (word: 'STATISTICS', clue: 'Study of data collection and analysis'),
+    (word: 'TANGENT', clue: 'Line touching a circle at one point'),
+    (word: 'TRIANGLE', clue: 'Polygon with three sides'),
+    (word: 'VARIABLE', clue: 'Symbol for an unknown value'),
+    (word: 'VECTOR', clue: 'Quantity with magnitude and direction'),
+    (word: 'VOLUME', clue: 'Space inside a 3D shape'),
+    // ── Science ───────────────────────────────────────────────────────────
+    (word: 'ACID', clue: 'Substance with pH below 7'),
+    (word: 'ATOM', clue: 'Smallest unit of an element'),
+    (word: 'BASE', clue: 'Substance with pH above 7'),
+    (word: 'BOND', clue: 'Chemical link between atoms'),
+    (word: 'CARBON', clue: 'Element symbol C, basis of life'),
+    (word: 'CELL', clue: 'Basic unit of life'),
+    (word: 'CHARGE', clue: 'Electric property of particles'),
+    (word: 'CIRCUIT', clue: 'Closed path for electric current'),
+    (word: 'COMPOUND', clue: 'Two or more elements chemically combined'),
+    (word: 'CONDUCTOR', clue: 'Material that carries electricity'),
+    (word: 'CURRENT', clue: 'Flow of electric charge'),
+    (word: 'DENSITY', clue: 'Mass per unit volume'),
+    (word: 'DNA', clue: 'Molecule carrying genetic information'),
+    (word: 'ELECTRON', clue: 'Negative subatomic particle'),
+    (word: 'ELEMENT', clue: 'Pure substance made of one atom type'),
+    (word: 'ENERGY', clue: 'Ability to do work'),
+    (word: 'ENZYME', clue: 'Biological catalyst'),
+    (word: 'FORCE', clue: 'Push or pull on an object'),
+    (word: 'FRICTION', clue: 'Force opposing motion'),
+    (word: 'GENE', clue: 'Unit of heredity'),
+    (word: 'GRAVITY', clue: 'Attractive force between masses'),
+    (word: 'HEAT', clue: 'Thermal energy transfer'),
+    (word: 'HEREDITY', clue: 'Passing traits from parent to offspring'),
+    (word: 'HORMONE', clue: 'Chemical messenger in the body'),
+    (word: 'HYDROGEN', clue: 'Lightest element, symbol H'),
+    (word: 'ION', clue: 'Charged atom or molecule'),
+    (word: 'LIGHT', clue: 'Electromagnetic radiation visible to eye'),
+    (word: 'MAGNET', clue: 'Object with a magnetic field'),
+    (word: 'MASS', clue: 'Amount of matter in an object'),
+    (word: 'MATTER', clue: 'Anything that has mass and volume'),
+    (word: 'MITOSIS', clue: 'Cell division producing two identical cells'),
+    (word: 'MOLECULE', clue: 'Two or more atoms bonded together'),
+    (word: 'NEUTRON', clue: 'Neutral subatomic particle in nucleus'),
+    (word: 'NUCLEUS', clue: 'Centre of an atom or cell'),
+    (word: 'ORBIT', clue: 'Path of a planet around the sun'),
+    (word: 'OSMOSIS', clue: 'Water movement across a membrane'),
+    (word: 'OXYGEN', clue: 'Element needed for respiration'),
+    (word: 'PHOTOSYNTHESIS', clue: 'Plants making food from sunlight'),
+    (word: 'PLANET', clue: 'Large body orbiting a star'),
+    (word: 'PLASMA', clue: 'Fourth state of matter'),
+    (word: 'PRESSURE', clue: 'Force per unit area'),
+    (word: 'PROTON', clue: 'Positive subatomic particle'),
+    (word: 'RADIATION', clue: 'Energy emitted as waves or particles'),
+    (word: 'REACTION', clue: 'Chemical change producing new substances'),
+    (word: 'RESISTANCE', clue: 'Opposition to electric current'),
+    (word: 'SALT', clue: 'Product of acid-base neutralisation'),
+    (word: 'SPEED', clue: 'Distance divided by time'),
+    (word: 'TEMPERATURE', clue: 'Measure of hotness or coldness'),
+    (word: 'TISSUE', clue: 'Group of similar cells'),
+    (word: 'VELOCITY', clue: 'Speed in a given direction'),
+    (word: 'VOLTAGE', clue: 'Electric potential difference'),
+    (word: 'WAVE', clue: 'Periodic disturbance transferring energy'),
+    (word: 'WEIGHT', clue: 'Gravitational force on a mass'),
+  ];
+
+  /// Returns a subset of words appropriate for the given level.
+  /// Higher levels = more words on the grid and longer words.
+  static List<({String word, String clue})> forLevel(int level) {
+    // Filter by word length: lower levels prefer shorter words
+    final maxLen = 4 + (level ~/ 3); // 4 at lvl1, up to ~10 at lvl20
+    final pool =
+        all.where((e) => e.word.length <= maxLen).toList();
+
+    pool.shuffle();
+
+    // Number of words to place on grid grows with level
+    final count = 6 + level; // 7 at lvl1 up to 26 at lvl20
+    return pool.take(count).toList();
+  }
+}
